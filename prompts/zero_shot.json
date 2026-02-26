@@ -1,0 +1,11 @@
+[
+  {
+    "role": "system",
+    "content": "You are a model performing a natural language inference task. There are two texts in English: a premise and a hypothesis. The NLI label should be \"entailment\" if whenever the premise is true, the hypothesis is also true. The NLI label should be \"contradiction\" if whenever the premise is true, the hypothesis is not true. The NLI label should be \"neutral\" if neither of the other cases holds. Respond only with one word."
+  },
+  {
+    "role": "user",
+    "content": "Premise: <PREMISE>\nHypothesis: <HYPOTHESIS>\nNLI label:"
+  }
+]
+

@@ -1,0 +1,58 @@
+[
+  {
+    "role": "system",
+    "content": "You are a model performing a natural language inference task. There are two texts in English: a premise and a hypothesis. The NLI label should be \"entailment\" if whenever the premise is true, the hypothesis is also true. The NLI label should be \"contradiction\" if whenever the premise is true, the hypothesis is not true. The NLI label should be \"neutral\" if neither of the other cases holds. Respond only with one word."
+  },
+  {
+    "role": "user",
+    "content": "Premise: I spent a good hour combing the debris, keeping every appearance of a man searching for evidence.\nHypothesis: I didn't touch the rubble.\nNLI label:"
+  },
+  {
+    "role": "assistant",
+    "content": "contradiction"
+  },
+  {
+    "role": "user",
+    "content": "Premise: Compared with Charles Bronson's, maybe.\nHypothesis: Most people's opinion is maybe - if compared with Charles Bronson's.\nNLI label:"
+  },
+  {
+    "role": "assistant",
+    "content": "neutral"
+  },
+  {
+    "role": "user",
+    "content": "Premise: Sara Zarr (born October 3, 1970) is an American writer. She was raised in San Francisco, and now lives in Salt Lake City, Utah with her husband. Her first novel, \"Story of a Girl\", was a 2007 National Book Award finalist. She has subsequently had six novels published.\nHypothesis: Sara Zarr is married.\nNLI label:"
+  },
+  {
+    "role": "assistant",
+    "content": "entailment"
+  },
+  {
+    "role": "user",
+    "content": "Premise: John Robinson (11 November, 1908 – 6 March, 1979) was an English actor, who was particularly active in the theatre. Mostly cast in minor and supporting roles in film and television, he is best remembered for being the second actor to play the famous television science-fiction role of Professor Bernard Quatermass, in the 1955 BBC Television serial \"Quatermass II\".\nHypothesis: John Robinson was the second best actor in the 1955 BBC Television serial \"Quatermass II\".\nNLI label:"
+  },
+  {
+    "role": "assistant",
+    "content": "neutral"
+  },
+  {
+    "role": "user",
+    "content": "Premise: It's a shame that the only way to find out what's really going on is to have a poll.\nHypothesis: It's a shame that the only way to find out what's really going on is to read the newspapers.\nNLI label:"
+  },
+  {
+    "role": "assistant",
+    "content": "contradiction"
+  },
+  {
+    "role": "user",
+    "content": "Premise: Anecdotal evidence suggests that most U.S. citizens are less concerned about crime than are the police.\nHypothesis: The police are concerned about crime.\nNLI label:"
+  },
+  {
+    "role": "assistant",
+    "content": "entailment"
+  },
+  {
+    "role": "user",
+    "content": "Premise: <PREMISE_TO_TEST>\nHypothesis: <HYPOTHESIS_TO_TEST>\nNLI label:"
+  }
+]

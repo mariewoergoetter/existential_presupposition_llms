@@ -1,0 +1,4 @@
+{
+  "template": "Premise: <PREMISE>\nHypothesis: <HYPOTHESIS>\n\nLabel:",
+  "labels": ["entailment", "neutral", "contradiction"]
+}

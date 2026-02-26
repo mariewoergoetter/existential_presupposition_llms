@@ -1,0 +1,21 @@
+base_model: google/gemma-3-12b
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+
+training:
+  epochs: 2
+  max_seq_length: 256
+  learning_rate: 1.5e-4
+  batch_size: 12
+  gradient_accumulation_steps: 1
+  bf16: true
+
+data:
+  train_split: train
+  eval_split: validation
+
+evaluation:
+  metric: accuracy

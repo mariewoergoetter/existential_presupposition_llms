@@ -1,0 +1,21 @@
+base_model: meta-llama/Llama-3.1-8B
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+
+training:
+  epochs: 2
+  max_seq_length: 256
+  learning_rate: 2.0e-4
+  batch_size: 16
+  gradient_accumulation_steps: 1
+  bf16: true
+
+data:
+  train_split: train
+  eval_split: validation
+
+evaluation:
+  metric: accuracy
