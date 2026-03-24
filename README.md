@@ -1,7 +1,7 @@
 # Existential Presupposition in Large Language Models
 
 This repository contains the code for the experiments of our paper "There is No Spoon: Existential Presupposition in Large Language
-Models" (link to be added) which investigates how large language models (LLMs) handle existential presupposition across different syntactic environments and contextual configurations.
+Models" (https://eprints.cs.univie.ac.at/8709/) which investigates how large language models (LLMs) handle existential presupposition across different syntactic environments and contextual configurations.
 
 The project compares three modelling paradigms:
 
