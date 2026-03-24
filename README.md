@@ -154,7 +154,16 @@ See `requirements.txt` for more details.
 
 ## Citation
 
-If you use this repository, please cite our associated paper (to be added).
+If you use this repository, please cite our associated paper:
+
+@inproceedings{cs8709,
+       booktitle = {Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+           title = {There is No Spoon: Existential Presupposition in Large Language Models},
+            year = {2026},
+          author = {Marie-L{\'e}ontine W{\"o}rg{\"o}tter and Shikai Lai and Sebastian Schuster},
+          series = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+             url = {http://eprints.cs.univie.ac.at/8709/}
+}
 
 ## Contact
 
